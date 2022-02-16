@@ -1,0 +1,25 @@
+{
+  "name": "facebook-clone-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SalehK98/facebook-clone-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SalehK98/facebook-clone-backend/issues"
+  },
+  "homepage": "https://github.com/SalehK98/facebook-clone-backend#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.3"
+  }
+}
