@@ -10,6 +10,7 @@ import path from "path";
 import Pusher from "pusher";
 import Grid from "gridfs-stream";
 import fs from "fs";
+require("dotenv").config();
 
 const app = express();
 const PORT = process.env.PORT || 4000;
