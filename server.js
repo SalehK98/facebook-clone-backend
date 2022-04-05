@@ -23,10 +23,10 @@ app.use(urlencoded({ extended: true }));
 // db config mongodb not psql
 import mongoPosts from "./postsModel.js";
 import mongoComments from "./commentsModel.js";
+import { env } from "process";
 Grid.mongo = mongoose.mongo;
 
-const mongoUrI =
-  "mongodb+srv://facebookclone:facebookclone@cluster0.ggrh0.mongodb.net/facebookclone?retryWrites=true&w=majority";
+const mongoUrI = env.process.mongoUrI;
 
 const conn = mongoose.createConnection(mongoUrI, {
   // useCreateIndex: true,
