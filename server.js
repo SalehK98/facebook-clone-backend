@@ -26,7 +26,7 @@ import mongoComments from "./commentsModel.js";
 import { env } from "process";
 Grid.mongo = mongoose.mongo;
 
-const mongoUrI = env.process.mongoUrI;
+const mongoUrI = process.env.mongoUrI;
 
 const conn = mongoose.createConnection(mongoUrI, {
   // useCreateIndex: true,
